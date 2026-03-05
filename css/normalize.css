@@ -56,11 +56,11 @@ hgroup,
 
 #main-nav ul {
   list-style-type: none;
-margin: 0;
-padding: 0;
-float: left;
-position: relative;
-left:50%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
 }
 
 #main-nav ul li {
@@ -77,12 +77,8 @@ color: #ccc;
 }
 
 #main-nav ul li a:hover{
-  list-style-type: none;
-margin: 0;
-padding: 0;
-float: left;
-position: relative;
-left:50%;
+  background-color: #ccc;
+  color: #333;
 }
 
 #page-wrapper {
