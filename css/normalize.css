@@ -48,8 +48,29 @@ hgroup,
   margin-left: 15px;
 }
 
-nav {
-  
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #333;
+}
+
+#main-nav ul li {
+  float: left;
+  width: 100%;
+  background-color: #333;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+display: block;
+text-decoration: none;
+color: #ccc;
+}
+
+#main-nav ul li a:hover{
+  float: left;
+  width: 100%;
+  background-color: #333;
 }
 
 #page-wrapper {
