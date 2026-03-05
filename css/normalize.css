@@ -33,6 +33,10 @@ figure,
   clear: both;}
 }
 
+#header h2 strong {
+  font-size: 2em;
+  font-weight: 900;
+}
 #header {
   position: relative;
   margin-top: 40px;
@@ -46,11 +50,6 @@ figure,
   font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
-}
-
-#header h2 strong {
-  font-size: 2em;
-  font-weight: 900;
 }
 
 #header a#logo1 img {
