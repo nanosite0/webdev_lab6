@@ -35,6 +35,11 @@ nav {
   border-radius: 12px 12px 0px 0px;
 }
 section,
+#side-content {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 summary {
     display: block;
 }
