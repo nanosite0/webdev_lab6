@@ -13,8 +13,16 @@ aside,
 details,
 figcaption,
 figure,
-footer,
-header,
+footer {
+  background-color: #777;
+  height: 80px;
+  clear: both;}
+}
+header {
+  position: relative;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px;
+}
 hgroup,
 main,
 nav,
@@ -129,8 +137,8 @@ abbr[title] {
 
 b,
 strong {
-    { font-weight: 900;
-font-size: 48px;}
+  font-weight: 900;
+  font-size: 48px;}
 }
 
 /**
