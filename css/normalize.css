@@ -29,6 +29,12 @@ figure,
   border-radius: 12px 12px 0px 0px;
 }
 
+#header a#logo1 img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 hgroup,
 
 .image-r {
