@@ -10,13 +10,23 @@
 
 article,
 aside,
+
+
+
+#center {
+  width: 960px;
+  text-align: center;
+}
+
 #content-wrapper {
   background-image: url("../images/repeating.png");
   float: left; 
 }
+
 details,
 figcaption,
 figure,
+
 #footer {
   background-color: #777;
   height: 80px;
@@ -29,10 +39,33 @@ figure,
   border-radius: 12px 12px 0px 0px;
 }
 
+#header h1 {
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Devonshire', cursive;
+  color: #E35335;
+}
+
+#header h2 strong {
+    font-size: 2em;
+    font-weight: 900;
+}
+
 #header a#logo1 img {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+#header #toplink {
+  text-decoration: none;
+position: absolute;
+top:-34px;
+right: 10px;
+color: white;
+font-size: 1.8em;
 }
 
 hgroup,
@@ -102,8 +135,17 @@ section,
   float: left;
 }
 
+strong {
+  font-weight: 900;
+  font-size: 48px;}
+}
+
 summary {
     display: block;
+}
+
+body {
+    background-image: url("../images/black.jpg");
 }
 
 /**
@@ -154,10 +196,6 @@ html {
  * Remove default margin.
  */
 
-body {
-    background-image: url("../images/black.jpg");
-}
-
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -188,20 +226,6 @@ a:hover {
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 
-h1 {
-  position: absolute;
-  left: 420px;
-  top:5px;
-  font-size: 3em;
-  font-family: 'Devonshire', cursive;
-  color: #E35335;
-}
-
-h2 strong {
-    font-size: 2em;
-    font-weight: 900;
-}
-
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
@@ -215,10 +239,6 @@ abbr[title] {
  */
 
 b,
-strong {
-  font-weight: 900;
-  font-size: 48px;}
-}
 
 /**
  * Address styling not present in Safari 5 and Chrome.
