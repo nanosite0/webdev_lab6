@@ -114,8 +114,12 @@ a:hover {
  */
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Devonshire', cursive;
+  color: #E35335;
 }
 
 h2 strong {
